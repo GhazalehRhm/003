@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Samim';
+  src: url(./fonts/Samim.ttf);
+}
+@font-face {
+  font-family: 'Samim-FD';
+  src: url(./fonts/Samim-FD.ttf);
+}
+
+body{
+  font-family: Samim;
+}
+body{
+  direction: rtl;
+  background-image: url("./images/banner-top-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
